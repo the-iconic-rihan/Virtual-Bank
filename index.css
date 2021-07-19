@@ -1,0 +1,57 @@
+/*google font*/
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700,800,900&display=swap");
+
+/*slider*/
+#carouselExampleIndicators {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+#carouselExampleIndicators .carousel-inner {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  /* background: #	000; */
+}
+#carouselExampleIndicators .carousel-inner:before {
+  position: absolute;
+  content: "";
+  /* background: rgba(0, 0, 0, 0.45); */
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item .info {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: auto;
+  width: 100%;
+  z-index: 1;
+  text-align: center;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item h1 {
+  height: auto;
+  color: #fff;
+  width: 100%;
+  z-index: 1;
+  text-align: center;
+  font-size: 5.5em;
+  font-weight: 750;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item p {
+  height: auto;
+  color: #ccc;
+  width: 100%;
+  z-index: 1;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+.btn-success {
+  color: black !important;
+  background-color: #f9fdfa !important;
+  border-color: rgb(36, 46, 177) !important;
+}
